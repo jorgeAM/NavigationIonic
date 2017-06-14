@@ -12,7 +12,14 @@
     color="primary"
     full
     (click)="navegarPagina()">
-    Ir a pagina 2
+    Ir a pagina 2 - 1era forma
+  </button>
+
+  <button ion-button
+    color="secondary"
+    full
+    [navPush]="pagina2">
+    Ir a pagina 2 - 2da forma
   </button>
 
 </ion-content>

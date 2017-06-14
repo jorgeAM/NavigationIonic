@@ -15,6 +15,7 @@ import { Pagina2Page } from '../../pages/pagina2/pagina2';
   templateUrl: 'principal.html',
 })
 export class PrincipalPage {
+  pagina2:any = Pagina2Page;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
