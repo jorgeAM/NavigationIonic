@@ -14,6 +14,8 @@ import { Pagina3Page } from '../../pages/pagina3/pagina3';
   templateUrl: 'pagina2.html',
 })
 export class Pagina2Page {
+  pagina3:any = Pagina3Page;
+
   mutantes:any[] = [
     {
       nombre: "Magneto",
